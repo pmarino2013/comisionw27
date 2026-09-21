@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* HEADER */
+header {
+    background-color: #000;
+    height: 10vh;
+    padding: 10px;
+}
+
+.linksHeader {
+    color: burlywood;
+}
+
+/* MAIN */
+.contenedor {
+    background-color: red;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.elementoAuto {
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.2,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+}
+
+.linksFooter {
+    font-size: 20px;
+}
+
+#linkGoogle {
+    color: green;
+}
+
+#linkBing {
+    color: blue;
+}
+
+#linkYahoo {
+    color: purple;
+}

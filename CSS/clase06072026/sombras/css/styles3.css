@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#recuadro1 {
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: inset 0px 0px 40px #f00,
+                        0px 0px 40px #ff0;
+}

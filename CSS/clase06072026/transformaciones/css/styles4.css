@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#recuadro1 {
+    transform: skew(15deg, 0deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#recuadro2 {
+    transform: skew(0deg, 15deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#recuadro3 {
+    transform: skew(15deg, 15deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}

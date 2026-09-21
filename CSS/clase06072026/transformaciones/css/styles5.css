@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#recuadro1 {
+    transform: rotate(15deg) scale(0.9,0.6) translate(10px,10px) skew(5deg,0deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+
+/* #recuadro2 {
+    transform: ;
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#recuadro3 {
+    transform: ;
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+} */

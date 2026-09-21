@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#recuadro1 {
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 30px 10px 20px #aaa
+}
+
+#recuadro2 {
+    background-color: #aa0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: -30px -10px 20px #aaa;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carousel-inner {
+    width: 50%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: brown;
+    width: 10%;
+    height: 50px;
+}
